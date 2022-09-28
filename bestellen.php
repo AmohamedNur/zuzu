@@ -12,53 +12,52 @@
     <div class="row">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                <a class="nav-link text-light" aria-current="page" href="#">Active</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link text-light" href="#">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Bestellen</a>
+            <li class="nav-item ">
+                <a class="nav-link text-light" href="#">Bestellen</a>
             </li>
         </ul>
     </div>
 </div>
 <div class="container-fluid">
     <div class="row">
-        <img src="img/sushi-36.jpg" height="250">
+        <img src="img/sushi0.png" height="250">
     </div>
 </div>
 <div class="container mt-3">
     <div class="row">
-        <form>
+        <form method="post">
             <h2>Klantgegevens</h2>
             <div class="mb-2">
-                <label for="exampleInputVoornaam" class="form-label">Voornaam</label>
-                <input type="Voornaam" class="form-control" id="exampleInputVoornaam">
+                <label for="voornaam" class="form-label">Voornaam</label>
+                <input type="text" class="form-control" id="voornaam">
             </div>
             <div class="mb-2">
-                <label for="exampleInputachternaam" class="form-label">Achternaam</label>
-                <input type="Achternaam" class="form-control" id="exampleInputAchternaam">
+                <label for="achternaam" class="form-label">Achternaam</label>
+                <input type="text" class="form-control" id="achternaam">
             </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="email" class="form-label">Email address</label>
+                <input type="text" class="form-control" id="email">
             </div>
             <div class="mb-2">
-                <label for="exampleInputAdres" class="form-label">Adres</label>
-                <input type="adres" class="form-control" id="exampleInputAdres">
+                <label for="adres" class="form-label">Adres</label>
+                <input type="text" class="form-control" id="adres">
             </div>
             <div class="mb-2">
-                <label for="exampleInputPostcode" class="form-label">Postcode</label>
-                <input type="postcode" class="form-control" id="exampleInputPostcode">
+                <label for="postcode" class="form-label">Postcode</label>
+                <input type="text" class="form-control" id="postcode">
             </div>
             <div class="mb-1">
-                <label for="exampleInputWoonplaats" class="form-label">Woonplaats</label>
-                <input type="Woonplaats" class="form-control" id="exampleInputWoonplaats">
+                <label for="woonplaats" class="form-label">Woonplaats</label>
+                <input type="text" class="form-control" id="woonplaats">
             </div>
-            <button type="button" class="btn btn-dark btn-sm">
-                <a href="sushipagina.php"> Ga naar sushi's</a>
-            </button>
+            <br><br>
+            <input type="submit" name="Verzenden" value="Verzenden">
         </form>
     </div>
 </div>

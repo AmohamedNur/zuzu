@@ -12,20 +12,20 @@
     <div class="row">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                <a class="nav-link active text-light" aria-current="page" href="#">Active</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link text-light" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Bestellen</a>
+                <a class="nav-link text-light" href="#">Bestellen</a>
             </li>
         </ul>
     </div>
 </div>
 <div class="container-fluid">
     <div class="row">
-        <img src="img/sushi-36.jpg" height="250">
+        <img src="img/sushi0.png" height="250">
     </div>
 </div>
 <div class="container mt-3">
