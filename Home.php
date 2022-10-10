@@ -12,20 +12,17 @@
       <div class="row">
   <ul class="nav">
       <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" href="#">Active</a>
+          <a class="nav-link text-light" href="Home.php">Home</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link text-light" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link text-light" href="#">Bestellen</a>
+          <a class="nav-link text-light" href="bestellen.php">Bestellen</a>
       </li>
   </ul>
    </div>
   </div>
       <div class="container-fluid">
           <div class="row">
-              <img src="img/sushi0.png" height="250">
+              <img src="img/sushi.jpg" height="250">
           </div>
       </div>
     <div class="container  text-center">
@@ -36,8 +33,11 @@
                    <br>
                Het woord "sushi" is afkomstig van "su", wat azijn betekent,en "shi" - rijst.
                </p>
-               <h4>Vandaag 12 Septemper 2022</h4>
-               <h4>Bezorgtijd vanaf nu: 18:00</h4>
+               <?php
+               $today = date("j F Y");
+               echo "<h4>Vandaag $today </h4>";
+               echo "<h4>Bezorgtijd vanaf nu: 18:00</h4>";
+               ?>
            </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
       <div class="row">
           <div class="col-6">
               <div class="card" style="">
-                  <img src="img/sushi1.jpg" class="card-img-top" alt="" width="500" height="300">
+                  <img src="img/sushi-1.jpg" class="card-img-top" alt="" width="500" height="300">
                   <div class="card-body">
                       <p class="card-text">Bestel bij ons je sushi's</p>
                   </div>
@@ -53,7 +53,7 @@
           </div>
           <div class="col-6">
               <div class="card" style="">
-                  <img src="img/sushi2.jpg" class="card-img-top" alt="" width="500" height="300">
+                  <img src="img/sushi-2.jpg" class="card-img-top" alt="" width="500" height="300">
                   <div class="card-body">
                       <p class="card-text">Kueze verschillende soorten sushi's</p>
               </div>

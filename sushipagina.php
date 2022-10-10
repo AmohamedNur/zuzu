@@ -12,20 +12,17 @@
     <div class="row">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Active</a>
+                <a class="nav-link text-light" href="Home.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#">Bestellen</a>
+                <a class="nav-link text-light" href="bestellen.php">Bestellen</a>
             </li>
         </ul>
     </div>
 </div>
 <div class="container-fluid">
     <div class="row">
-        <img src="img/sushi0.png" height="250">
+        <img src="img/sushi.jpg" height="250">
     </div>
 </div>
 <div class="container mt-3">
@@ -33,30 +30,30 @@
         <form>
             <h2>Sudshi's bestellen</h2>
             <div class="mb-2">
-                <label for="exampleInputMaki" class="form-label">Maki Komkommer (max = 5)</label>
-                <input type="Voornaam" class="form-control" id="exampleInputVoornaam">
+                <label for="Maki Komkommer" class="form-label">Maki Komkommer (max = 5)</label>
+                <input type="number" class="form-control" id="maki Komkommer">
             </div>
             <div class="mb-2">
-                <label for="exampleInputMaki" class="form-label">Maki Avocado (max = 10)</label>
-                <input type="Achternaam" class="form-control" id="exampleInputAchternaam">
+                <label for="Maki Avocado" class="form-label">Maki Avocado (max = 10)</label>
+                <input type="number" class="form-control" id="maki Avocado">
             </div>
             <div class="mb-3">
-                <label for="exampleInputNigiri" class="form-label">Nigiri zalm (max = 10)</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="Nigiri zalm" class="form-label">Nigiri zalm (max = 10)</label>
+                <input type="number" class="form-control" id="nigiri zalm" aria-describedby="emailHelp">
             </div>
             <div class="mb-2">
-                <label for="exampleInputPhila" class="form-label">Pliadelphia Roll (max = 5)</label>
-                <input type="adres" class="form-control" id="exampleInputAdres">
+                <label for="Pliadelphia Roll" class="form-label">Pliadelphia Roll (max = 5)</label>
+                <input type="number" class="form-control" id="pliadelphia Roll">
             </div>
             <div class="mb-2">
                 <label for="exampleInputSpicy" class="form-label">Spicy Tuna Roll (max = 5)</label>
-                <input type="postcode" class="form-control" id="exampleInputPostcode">
+                <input type="number" class="form-control" id="exampleInputPostcode">
             </div>
             <div class="mb-1">
-                <label for="exampleInputCali" class="form-label">California Roll (max = 8)</label>
-                <input type="Woonplaats" class="form-control" id="exampleInputWoonplaats">
+                <label for="Spicy Tuna Roll" class="form-label">California Roll (max = 8)</label>
+                <input type="number" class="form-control" id="Spicy Tuna Roll">
             </div>
-            <button type="button" class="btn btn-dark btn-sm">Verzend</button>
+            <button type="submit" class="btn btn-dark btn-sm">Verzend</button>
         </form>
     </div>
 </div>
